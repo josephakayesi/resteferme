@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/josephakayesi/resteferme)
-- [Live Site URL](https://svnhui.vercel.app/)
+- [Live Site URL](https://resteferme.vercel.app/)
 
 ## My process
 
@@ -66,6 +66,8 @@ Users should be able to:
 - I want to focus on creating more delightful UIs. Adding microinteractions to elements of the UI.
 
 - I aim to enhance the responsiveness of the landing page, ensuring it accommodates various screen sizes for optimal user experience.
+
+- I aim to run my application through a web performance tester and improve on the performance of the website
 
 ### Useful resources
 
