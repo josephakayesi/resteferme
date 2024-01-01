@@ -55,7 +55,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nueueHaasGrotesk.className}>{children}</body>
+      <body
+        className={`${nueueHaasGrotesk.className} bg-gradient-to-b from-[#EEFEEC] to-white`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
