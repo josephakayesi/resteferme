@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply px-6 md:px-20 lg:px-20;
+  }
+}
+
+html {
+  font-family: var(--font-nueue-haas-grotesk);
+}
