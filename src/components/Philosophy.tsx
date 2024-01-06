@@ -3,14 +3,14 @@ import ArrowRightIcon from "@/ui/icons/ArrowRightIcon";
 
 function Philosophy() {
   return (
-    <section className="flex flex-row py-10 pb-32 lg:py-20 justify-between ">
+    <section className="flex flex-col sm:flex-row py-10 pb-32 lg:py-20 sm:justify-between text-center">
       <div>
         <Image src="/philosophy.png" width={510} height={1000} alt="hero" />
       </div>
 
       <div className="max-h-[500px] flex flex-col justify-between">
         <div className="mt-8">
-          <h2 className="font-bold text-dark text-6xl">Philosophy</h2>
+          <h2 className="font-bold text-dark text-6xl pb-6">Philosophy</h2>
           <p className="text-3xl max-w-[500px] pt-2">
             We believe that scalability, efficiency and resilience of businesses
             powered by software lies in the{" "}
@@ -22,7 +22,7 @@ function Philosophy() {
         </div>
         <div>
           <button
-            className="rounded-full text-center bg-none mx-auto py-3 text-xl whitespace-nowrap cursor-pointer m inline-flex items-center gap-4"
+            className="rounded-full text-center bg-none mx-auto py-3 text-xl whitespace-nowrap cursor-pointer m inline-flex items-center gap-4 mt-16"
             type="button"
           >
             {"Learn more"}

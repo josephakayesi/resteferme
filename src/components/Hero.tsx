@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="flex flex-1 py-10 mt-8 pb-32 justify-between">
+    <section className="flex flex-col-reverse sm:flex-row md:flex-1 py-10 mt-8 pb-32 justify-center md:justify-between text-center md:text-left">
       <div>
-        <h1 className="font-bold text-dark text-8xl">Resteferme</h1>
+        <h1 className="font-bold text-dark text-5xl md:text-8xl">Resteferme</h1>
         <p className="text-5xl max-w-[500px] pt-2">
           We coach software development teams to adopt{" "}
           <span className="text-primary">mature</span> and{" "}
