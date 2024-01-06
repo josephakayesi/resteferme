@@ -5,8 +5,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
   return (
-    <section className="w-">
-      <form className="bg-secondary sm:px-16 px-12 py-12 my-16">
+    <section>
+      <form className="bg-secondary sm:px-16 px-2 py-12 my-16">
         <div className="space-y-12 sm:space-x-12 w-fit">
           <div className="border-dark/10 pb-12">
             <h2 className="text-dark font-bold sm:leading-7 sm:text-5xl text-3xl">
@@ -75,10 +75,12 @@ function Contact() {
           </div>
         </div>
 
-        <ReCAPTCHA
-          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
-          size="normal"
-        />
+        <div className="text-center">
+          <ReCAPTCHA
+            sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+            size="normal"
+          />
+        </div>
         <div className="mt-6 flex items-center justify-end gap-x-6">
           <button
             className="rounded-full  bg-primary py-2 px-3 space-x-1 text-sm font-normal cursor-pointer text-white  hover:bg-primary/80 m inline-flex items-center gap-5"

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply px-6 sm:px-20 lg:px-20;
+    @apply px-6 sm:px-20 lg:px-20 w-full;
   }
 }
 
