@@ -3,7 +3,7 @@ import ArrowRightIcon from "@/ui/icons/ArrowRightIcon";
 
 function Philosophy() {
   return (
-    <section className="flex flex-col sm:flex-row py-10 pb-32 lg:py-20 sm:justify-between text-center">
+    <section className="flex flex-col sm:flex-row py-10 pb-32 lg:py-20 sm:justify-between text-center sm:text-left">
       <div>
         <Image src="/philosophy.png" width={510} height={1000} alt="hero" />
       </div>
