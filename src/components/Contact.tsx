@@ -78,7 +78,7 @@ function Contact() {
         <div className="text-center">
           <ReCAPTCHA
             sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
-            size="normal"
+            size={window.innerWidth > 370 ? "normal" : "compact"}
           />
         </div>
         <div className="mt-6 flex items-center justify-end gap-x-6">
