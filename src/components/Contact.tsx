@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useWindowSize } from "@/hooks/useWIndowSize";
 
 function Contact() {
+  const size = useWindowSize();
+
   return (
     <section>
       <form className="bg-secondary sm:px-16 px-3 sm:py-12 py-4 my-16">
@@ -78,7 +81,7 @@ function Contact() {
         <div className="text-center">
           <ReCAPTCHA
             sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
-            size={window.innerWidth > 370 ? "normal" : "compact"}
+            size={size.width && size.width > 370 ? "normal" : "compact"}
           />
         </div>
         <div className="mt-6 flex items-center justify-end gap-x-6">
