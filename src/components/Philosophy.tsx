@@ -10,7 +10,7 @@ function Philosophy() {
 
       <div className="max-h-[500px] flex flex-col justify-between">
         <div className="mt-8">
-          <h2 className="font-bold text-dark text-6xl pb-6">Philosophy</h2>
+          <h2 className="font-bold text-dark text-5xl pb-6">Philosophy</h2>
           <p className="text-3xl max-w-[500px] pt-2">
             We believe that scalability, efficiency and resilience of businesses
             powered by software lies in the{" "}
